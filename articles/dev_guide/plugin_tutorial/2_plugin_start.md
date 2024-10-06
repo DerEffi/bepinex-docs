@@ -29,7 +29,7 @@ To create a project in the folder, do the following
     
     You can follow this general-purpose choice process:
 
-    * If the game has `netstandard.dll` in `<Game Name>_Data/Managed` folder, your TFM is `netstandard2.0`
+    * If the game has `netstandard.dll` in `<Game Name>_Data/Managed` folder, your TFM is `netstandard2.0` (for Unity versions lower than `2022.1`) or `netstandard2.1` (for Unity `2022.1` or newer)
     * If the game's `mscorlib.dll` file version (right click the file -> `Properties` -> `Details`) is at least `4.0.0.0` or newer, your TFM is `net46`
     * In any other case, or if you are unsure/unable to verify using the methods above, your TFM is `net35`
 
